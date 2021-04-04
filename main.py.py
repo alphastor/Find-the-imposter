@@ -9,7 +9,7 @@ pygame.init()
 win = pygame.display.set_mode((600, 500))
 hold = True
 
-platform = pygame.image.load("platform_2.png")
+platform = pygame.image.load("platform_1.png")
 def draw_platform():
     win.blit(platform, (1,20))
 
