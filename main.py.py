@@ -10,9 +10,9 @@ win = pygame.display.set_mode((600, 500))
 hold = True
 
 #--------------platform-----------------------#
-platform = pygame.image.load("platform_1.png")
+platform = pygame.image.load("background.png")
 def draw_platform():
-    win.blit(platform, (1,20))
+    win.blit(platform, (0,0))
 
 #---------------imposter---------------------#
 ball = pygame.image.load("ball_1.png")
